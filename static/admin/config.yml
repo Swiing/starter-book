@@ -36,9 +36,10 @@ collections:
             default: false
           - {label: "Body", name: "body", widget: "markdown"}
 
-  - folder "content/docs/chapter1/"
-    label: "Privacy Policy"
-    name: "privacy"
+  - folder: "content/docs/chapter1/"
+    label: "Chapitre 1"
+    name: "chapter1"
+    create: true
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
